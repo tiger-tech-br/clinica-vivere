@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#194d3d">
+  <meta name="description" content="Clínica Vivere: um conceito de cuidado médico acolhedor e personalizado. Projeto demonstrativo.">
+  <title>Clínica Vivere | Cuidar de você é nossa prioridade</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="header" id="inicio">
+    <div class="container header-inner">
+      <a href="#inicio" class="brand" aria-label="Clínica Vivere, início">
+        <span class="brand-symbol">✳</span>
+        <span class="brand-text">VIVERE <small>CLÍNICA MÉDICA</small></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="menu" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#especialidades">Especialidades</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contato">Contato</a>
+        <a href="#contato" class="btn btn-primary nav-cta">Agendar consulta ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero section" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <span class="eyebrow">SAÚDE HOJE. MAIS VIDA SEMPRE.</span>
+          <h1 id="hero-title">Cuidar de você é a nossa <em>prioridade.</em></h1>
+          <p>Um novo olhar para o cuidado com a sua saúde. Atenção, acolhimento e bem-estar em cada etapa da sua vida.</p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contato">Agendar consulta <span>↗</span></a>
+            <a class="btn btn-outline" href="#sobre">Conheça a clínica</a>
+          </div>
+
+          <div class="hero-features">
+            <span>✳ Atendimento acolhedor</span>
+            <span>✳ Ambiente moderno</span>
+            <span>✳ Cuidado preventivo</span>
+          </div>
+        </div>
+        <div class="hero-photo reveal">
+          <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=1200&q=85" alt="Profissional de saúde sorrindo em ambiente clínico" fetchpriority="high">
+          <div class="photo-label"><span>✳</span> Um espaço pensado para cuidar de você.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section specialties" id="especialidades">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="eyebrow">CUIDADO EM CADA DETALHE</span>
+            <h2>Nossas especialidades</h2>
+            <p>Conheça algumas das áreas médicas apresentadas neste conceito de clínica.</p>
+          </div>
+          <a href="#contato" class="text-link">Consultar atendimento ↗</a>
+        </div>
+
+        <div class="cards">
+          <article class="specialty-card reveal">
+            <img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=850&q=80" alt="Estetoscópio sobre superfície clara" loading="lazy">
+            <div class="card-content">
+              <span class="card-icon">✳</span>
+              <h3>Clínica Geral</h3>
+              <p>Acompanhamento da saúde, orientação e cuidados para diferentes fases da vida.</p>
+              <a href="#contato" data-specialty="Clínica Geral">Consultar disponibilidade ↗</a>
+            </div>
+          </article>
+
+          <article class="specialty-card reveal">
+            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=850&q=80" alt="Profissional da área médica em atendimento" loading="lazy">
+            <div class="card-content">
+              <span class="card-icon">♡</span>
+              <h3>Cardiologia</h3>
+              <p>Avaliação e acompanhamento da saúde cardiovascular, com foco na prevenção.</p>
+              <a href="#contato" data-specialty="Cardiologia">Consultar disponibilidade ↗</a>
+            </div>
+          </article>
+
+          <article class="specialty-card reveal">
+            <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=850&q=80" alt="Ambiente de atendimento médico" loading="lazy">
+            <div class="card-content">
+              <span class="card-icon">❀</span>
+              <h3>Dermatologia</h3>
+              <p>Cuidados com a saúde da pele, avaliação e orientações individualizadas.</p>
+              <a href="#contato" data-specialty="Dermatologia">Consultar disponibilidade ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre">
+      <div class="container about-grid">
+        <div class="about-image reveal">
+          <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1100&q=85" alt="Interior ilustrativo de um ambiente de saúde moderno" loading="lazy">
+        </div>
+        <div class="about-content reveal">
+          <span class="eyebrow">CONHEÇA A VIVERE</span>
+          <h2>Um lugar onde o cuidado encontra o acolhimento.</h2>
+          <p>A Clínica Vivere nasce como um conceito de espaço médico que valoriza a escuta, o respeito e a atenção às necessidades de cada pessoa.</p>
+          <p>Imaginamos um ambiente tranquilo, contemporâneo e preparado para tornar a experiência de cuidado mais confortável.</p>
+          <a class="btn btn-primary" href="#como-funciona">Como funciona <span>↗</span></a>
+          <div class="about-points">
+            <span>✳ Ambiente acolhedor</span>
+            <span>✳ Atenção individual</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section steps" id="como-funciona">
+      <div class="container">
+        <div class="center-heading reveal">
+          <span class="eyebrow">SIMPLES E PRÁTICO</span>
+          <h2>Como funciona o agendamento</h2>
+          <p>Três etapas para iniciar seu atendimento.</p>
+        </div>
+        <div class="steps-grid">
+          <div class="step reveal">
+            <span class="step-icon">01 <strong>✳</strong></span>
+            <h3>Escolha a especialidade</h3>
+            <p>Encontre a área médica que corresponde à sua necessidade.</p>
+          </div>
+          <div class="step reveal">
+            <span class="step-icon">02 <strong>▦</strong></span>
+            <h3>Entre em contato</h3>
+            <p>Converse com a equipe para verificar horários e condições.</p>
+          </div>
+          <div class="step reveal">
+            <span class="step-icon">03 <strong>✓</strong></span>
+            <h3>Confirme sua consulta</h3>
+            <p>Receba as orientações necessárias para seu atendimento.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section differences" id="diferenciais">
+      <div class="container">
+        <div class="center-heading reveal">
+          <span class="eyebrow">NOSSA PROPOSTA</span>
+          <h2>Cuidado que vai além da consulta</h2>
+          <p>Os princípios que inspiram a experiência Vivere.</p>
+        </div>
+        <div class="difference-grid">
+          <article class="difference reveal">
+            <span>♡</span><h3>Escuta e acolhimento</h3>
+            <p>Uma experiência baseada no respeito e na atenção a cada pessoa.</p>
+          </article>
+          <article class="difference reveal">
+            <span>✳</span><h3>Cuidado individual</h3>
+            <p>Uma proposta que considera necessidades e histórias diferentes.</p>
+          </article>
+          <article class="difference reveal">
+            <span>⌂</span><h3>Ambiente confortável</h3>
+            <p>Espaços pensados para transmitir tranquilidade e bem-estar.</p>
+          </article>
+          <article class="difference reveal">
+            <span>♧</span><h3>Foco na prevenção</h3>
+            <p>Valorização do acompanhamento e de hábitos saudáveis.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="container faq-grid">
+        <div class="faq-intro reveal">
+          <span class="eyebrow">ESTAMOS AQUI PARA AJUDAR</span>
+          <h2>Perguntas frequentes</h2>
+          <p>Informações importantes sobre o funcionamento deste modelo de clínica.</p>
+          <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80" alt="Ambiente médico ilustrativo" loading="lazy">
+        </div>
+        <div class="faq-items reveal">
+          <details>
+            <summary>A clínica atende convênios?</summary>
+            <p>Este é um projeto demonstrativo. Em uma clínica real, a lista de convênios aceitos seria informada pela equipe responsável.</p>
+          </details>
+          <details>
+            <summary>Quais são os horários de atendimento?</summary>
+            <p>Os horários serão definidos quando este modelo for adaptado para uma clínica real.</p>
+          </details>
+          <details>
+            <summary>Como faço para agendar uma consulta?</summary>
+            <p>Entre em contato pelo canal informado pela clínica. Nesta demonstração, você pode explorar a interface de agendamento sem enviar dados pessoais.</p>
+          </details>
+          <details>
+            <summary>A consulta é apenas particular?</summary>
+            <p>As modalidades de atendimento dependem da clínica responsável. Consulte as condições antes de confirmar.</p>
+          </details>
+          <details>
+            <summary>Posso remarcar minha consulta?</summary>
+            <p>Em uma clínica real, as regras de remarcação devem ser confirmadas diretamente com a equipe de atendimento.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta" id="contato">
+      <div class="container cta-grid">
+        <div class="reveal">
+          <span class="eyebrow">O PRIMEIRO PASSO COMEÇA AQUI</span>
+          <h2>Sua saúde merece um cuidado especial.</h2>
+          <p>Descubra uma experiência de atendimento pensada para você.</p>
+        </div>
+        <div class="cta-action reveal">
+          <a href="#" class="btn btn-light" data-whatsapp>Agendar pelo WhatsApp ↗</a>
+          <small>Projeto demonstrativo — agendamento não disponível.</small>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="#inicio"><span class="brand-symbol">✳</span><span class="brand-text">VIVERE <small>CLÍNICA MÉDICA</small></span></a>
+        <p>Cuidando de você hoje para um amanhã melhor.</p>
+        <small>Marca e clínica fictícias, criadas para demonstração de portfólio.</small>
+      </div>
+      <div>
+        <h3>Navegação</h3>
+        <a href="#inicio">Início</a>
+        <a href="#especialidades">Especialidades</a>
+        <a href="#sobre">Sobre a clínica</a>
+        <a href="#faq">Perguntas frequentes</a>
+      </div>
+      <div>
+        <h3>Atendimento</h3>
+        <a href="#contato">Agendamento</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#diferenciais">Diferenciais</a>
+      </div>
+      <div>
+        <h3>Informações</h3>
+        <p>Este site é um conceito visual e funcional. Não representa um estabelecimento médico em atividade.</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> Clínica Vivere — Projeto demonstrativo.</span>
+      <a href="#inicio">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
